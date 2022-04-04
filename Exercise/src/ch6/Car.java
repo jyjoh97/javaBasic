@@ -1,4 +1,3 @@
-//change
 package ch6;
 
 public class Car {
