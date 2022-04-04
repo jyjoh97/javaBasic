@@ -3,9 +3,7 @@ package ch6;
 public class Printer {
 	
 
-	int xx;
-	String yy;
-	
+
 	private int as;
 	private boolean asd;
 	private double asdf;
@@ -35,5 +33,7 @@ public class Printer {
 		
 		return asdfg;
 	}
+	
+	
 		
 }
