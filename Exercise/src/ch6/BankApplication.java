@@ -41,9 +41,12 @@ public class BankApplication {
 	public void setBalance(int balance) {
 		this.balance = balance;
 	}
+<<<<<<< HEAD
 
 
 	
+=======
+>>>>>>> 57f35a64739a9ea73b1413ef91e5d34bba2aa24b
 	
 
 	
