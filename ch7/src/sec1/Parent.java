@@ -17,11 +17,14 @@ public class Parent {
 	}
 	
 	
-	public void method() {
+	public void method1() {
 		System.out.println("부모메소드1");
 		System.out.println("부모메소드2");
 	}
 	
-	
-	
+	public void method2() {
+		System.out.println("자식메소드1");
+		System.out.println("자식메소드2");
+	}
+
 }

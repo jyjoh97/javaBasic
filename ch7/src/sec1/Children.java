@@ -16,8 +16,9 @@ public class Children extends Parent{
 	}		//메소드
 	
 	@Override
+	
 	public void method2() {
-		System.out.println("자식메소드2 입니다.");
+		System.out.println("자식메소드1 입니다.");
 	}
 	
 	public void method3() {
