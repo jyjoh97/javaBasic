@@ -1,17 +1,24 @@
-package ch7;
+package sec1;
 
 public class CellPhone {
 	
 	String model;
 	String color;
 	
-	public void model(String model) {
-		System.out.println("모델: "+model);
+	
+	
+	public void mod(String mode) {
+		System.out.println("모델 : "+mode);
 	}
 		
-	public void color(String color) {
-		System.out.println("색상 : "+color);
+	public void col(String colo) {
+		System.out.println("색상 : "+colo);
 	}
+	
+	public void cha(int chan) {
+		System.out.println("채널 : "+chan);
+	}
+	
 	public void powerOn() {
 		System.out.println("전원을 켭니다.");
 	}
@@ -25,7 +32,7 @@ public class CellPhone {
 		System.out.println("벨이 울립니다.");
 	}
 	
-	public void sendVoicd(String massage) {	//전달한 메시지 출력
+	public void sendVoice(String massage) {	//전달한 메시지 출력
 		System.out.println(massage);
 	}
 	
