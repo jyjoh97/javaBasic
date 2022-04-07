@@ -12,6 +12,15 @@ public class DmbPhone extends CellPhone{
 		this.channel = channel;
 	}
 	
+	public void model(String model) {
+		System.out.println("모델 : "+model);
+	}
+		
+	public void color(String color) {
+		System.out.println("색상 : "+color);
+	}
+		
+	
 	public void channel(int channel) {
 		System.out.println("채널 : "+channel);
 	}

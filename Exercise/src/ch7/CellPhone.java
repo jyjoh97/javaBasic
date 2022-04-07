@@ -5,13 +5,8 @@ public class CellPhone {
 	String model;
 	String color;
 	
-	public void model(String model) {
-		System.out.println("모델: "+model);
-	}
-		
-	public void color(String color) {
-		System.out.println("색상 : "+color);
-	}
+	
+	
 	public void powerOn() {
 		System.out.println("전원을 켭니다.");
 	}

@@ -4,11 +4,11 @@ public class dmb1{
 
 	public static void main(String[] args) {
 		
-		String note = "Samsung Galaxy Note20 Ultra";
+		String note = "Samsung Galaxy Note20 Ultra 5G";
 		String black = "검정";
 		int cha = 777;
-		String mas1 = "여보세요";
-		String mas2 = "안녕하셨습니까?";
+		String mas1 = "'여보세요'";
+		String mas2 = "'안녕하셨습니까?'";
 		
 		DmbPhone dmb1 = new DmbPhone(note, black, cha);
 		
