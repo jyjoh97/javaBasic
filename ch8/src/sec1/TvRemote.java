@@ -6,8 +6,8 @@ package sec1;
 public class TvRemote implements RemoteControl{
 
 	
-	int volume;
-	
+	int volume;		//인터페이스로부터 상속된 클래스의 필드는 자동으로 private
+	int channel;
 	
 	@Override
 	public void turnOn() {
