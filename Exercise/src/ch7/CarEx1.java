@@ -1,4 +1,4 @@
-package sec3;
+package ch7;
 
 public class CarEx1 {
 	public static void main(String[] args) {
@@ -7,6 +7,7 @@ public class CarEx1 {
 		
 		for(int i=1; i<110; i++);{
 			int error = car1.run();
+			System.out.println(error);
 			switch(error) {
 				case 1 : 
 					System.out.println("앞 왼쪽 타이어 교체");
@@ -19,6 +20,9 @@ public class CarEx1 {
 					break;
 				case 4 : 
 					System.out.println("뒤 오른쪽 타이어 교체");
+					break;
+				default:
+					System.out.println("default");
 					break;
 			}
 			System.out.println("===========================================");

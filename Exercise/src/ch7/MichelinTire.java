@@ -1,4 +1,4 @@
-package sec3;
+package ch7;
 
 public class MichelinTire extends Tire {
 	

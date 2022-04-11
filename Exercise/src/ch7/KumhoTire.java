@@ -1,4 +1,4 @@
-package sec3;
+package ch7;
 //최대회전수 40
 public class KumhoTire extends Tire{
 

@@ -1,4 +1,4 @@
-package sec4;
+package sec3;
 
 public class SmartPhone extends Phone{
 

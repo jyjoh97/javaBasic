@@ -1,4 +1,4 @@
-package sec3;
+package ch7;
 //최대회전수 30
 public class HankookTire extends Tire{
 	

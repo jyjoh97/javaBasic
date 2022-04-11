@@ -1,4 +1,4 @@
-package sec4;
+package sec3;
 
 public class Child2 extends Abstract1{
 

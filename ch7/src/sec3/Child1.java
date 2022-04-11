@@ -1,4 +1,4 @@
-package sec4;
+package sec3;
 //구현 클래스 : 추상 클래스의 자식 클래스
 public class Child1 extends Abstract1{
 
