@@ -2,9 +2,9 @@ package ch6;
 
 import java.util.Scanner;
 
-public class AccountEx3 {
+public class BankTeacher {
 	//전역 객체
-	private static Account2[] accountArray = new Account2[100]; //계좌 100개 저장소
+	private static Bank[] accountArray = new Bank[100]; //계좌 100개 저장소
 	private static Scanner scanner = new Scanner(System.in);
 	public static void main(String[] args) {
 		boolean run = true;
@@ -49,7 +49,7 @@ public class AccountEx3 {
 		account.setOwner(owner);
 		account.setBalance(balance);
 		*/
-		Account2 account = new Account2(ano, owner, balance);		
+		Bank account = new Bank(ano, owner, balance);		
 		for(int i=0;i<accountArray.length;i++) {
 			if(accountArray[i] == null) {
 				accountArray[i] = account;
@@ -84,7 +84,7 @@ public class AccountEx3 {
 		
 		String ano = scanner.next();
 		int balance = scanner.nextInt();
-		Account2 account = findAccount(ano);
+		Bank account = findAccount(ano);
 		if(account == null) {
 			System.out.println("존재하지 않는 계좌이므로 입금되지 못했습니다.");
 			return;
@@ -102,7 +102,7 @@ public class AccountEx3 {
 		
 		String ano = scanner.next();
 		int balance = scanner.nextInt();
-		Account2 account = findAccount(ano);
+		Bank account = findAccount(ano);
 		if(account == null) {
 			System.out.println("존재하지 않는 계좌이므로 출금되지 못했습니다.");
 			return;
@@ -110,10 +110,10 @@ public class AccountEx3 {
 		account.setBalance(account.getBalance()-balance);
 		System.out.println("의뢰하신 "+balance+"가 출금처리 되었습니다.");
 	}	
-	private static Account2 findAccount(String ano) {
+	private static Bank findAccount(String ano) {
 		//Account2의 기본 객체를 만들어 다른 함수에서 전달되어진 검색할 계좌번호를 저장
 		//Account2의 배열 객체에서 검색하고자하는 계좌번호의 계좌정보를 찾아서 반환
-		Account2 account = null;	//지역변수
+		Bank account = null;	//지역변수
 		for(int i=0;i<accountArray.length;i++) {
 			if(accountArray[i] != null) {
 				if(accountArray[i].getAno().equals(ano)) {

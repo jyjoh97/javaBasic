@@ -1,8 +1,8 @@
 package ch8;
 
 public interface DataAccessObject {
-	void select();
-	void insert();
-	void update();
-	void delete();
+	public void select();
+	public void insert();
+	public void update();
+	public void delete();
 }
