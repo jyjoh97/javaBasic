@@ -1,6 +1,6 @@
 package ch8;
 
-public class DaoExample {
+public class DaoEx {
 
 	public static void dbWork(DataAccessObject dao) {
 		
